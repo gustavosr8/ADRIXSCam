@@ -1268,7 +1268,7 @@ void xcamCamera::temperatureTask(void)
 		setDoubleParam(ADTemperatureActual, actualTempCelcius);
 
 		callParamCallbacks();
-		this-unlock();
+		this->unlock();
 
 		tSim += 0.1;
 	}
